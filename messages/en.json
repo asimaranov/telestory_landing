@@ -1,0 +1,97 @@
+{
+  "header": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "download": "Download"
+  },
+  "hero": {
+    "badge": "Telegram Bot + Mobile App",
+    "title": "View & Download Telegram Stories",
+    "description": "Telestory lets you watch and save Telegram stories. Access any user's stories, save them for later, and share with friends - all without revealing your identity.",
+    "startBot": "Start Telegram Bot",
+    "downloadApp": "Download App"
+  },
+  "features": {
+    "title": "Powerful Features for Story Viewing",
+    "subtitle": "Everything you need to view, save, and share Telegram stories without anyone knowing.",
+    "saveStories": {
+      "title": "Save Stories",
+      "description": "Download and save both your own stories and others' stories to your device for later viewing."
+    },
+    "anonymousViewing": {
+      "title": "Anonymous Viewing",
+      "description": "Watch any Telegram user's stories completely anonymously without them knowing you viewed it."
+    },
+    "shareWithFriends": {
+      "title": "Share with Friends",
+      "description": "Easily share any story with your friends and family through various platforms."
+    },
+    "completePrivacy": {
+      "title": "Complete Privacy",
+      "description": "Your identity remains completely hidden. View stories without leaving any traces."
+    },
+    "anyUserAccess": {
+      "title": "Any User Access",
+      "description": "Access stories from any Telegram user, whether they're in your contacts or not."
+    },
+    "crossPlatform": {
+      "title": "Cross-Platform",
+      "description": "Available as both a Telegram bot and mobile app for iOS and Android."
+    }
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Start for free or upgrade to premium for unlimited access and advanced features.",
+    "free": {
+      "name": "Free",
+      "price": "0 ₽",
+      "description": "Perfect for trying out Telestory",
+      "features": {
+        "views": "5 story views per day",
+        "anonymous": "Basic anonymous viewing",
+        "downloads": "Standard quality downloads",
+        "bot": "Telegram bot access"
+      },
+      "button": "Get Started Free"
+    },
+    "premium": {
+      "badge": "Most Popular",
+      "name": "Premium",
+      "price": "149 ₽",
+      "period": "per month",
+      "features": {
+        "unlimited": "Unlimited story views",
+        "hd": "HD quality downloads",
+        "bulk": "Bulk download feature",
+        "app": "Mobile app access",
+        "support": "Priority support",
+        "sharing": "Advanced sharing options",
+        "noAds": "No ads"
+      },
+      "button": "Upgrade to Premium"
+    }
+  },
+  "download": {
+    "title": "Get Started Today",
+    "subtitle": "Choose your preferred way to access Telestory - through our Telegram bot or mobile app.",
+    "openBot": "Open Telegram Bot",
+    "googlePlay": "Download from Google Play",
+    "googlePlayShort": "Google Play"
+  },
+  "cta": {
+    "title": "Ready to View and Save Stories?",
+    "subtitle": "Join thousands of users who are already using Telestory to view and save Telegram stories privately.",
+    "startTrial": "Start Free Trial",
+    "learnMore": "Learn More"
+  },
+  "footer": {
+    "copyright": "© 2024 Telestory. All rights reserved.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "support": "Support"
+  },
+  "metadata": {
+    "title": "Telestory - View and Download Telegram Stories",
+    "description": "Telestory lets you watch and save Telegram stories. Access any user's stories, save them for later, and share with friends - all without revealing your identity."
+  }
+}
