@@ -6,9 +6,9 @@ export const metadata: Metadata = {
   description: 'Telestory lets you watch and save Telegram stories. Access any user\'s stories, save them for later, and share with friends - all without revealing your identity.',
   icons: [{ rel: 'icon', type: 'image/png', url: '/favicon.ico' }],
   openGraph: {
-    title: 'Blockfirst - образовательная блокчейн платформа',
+    title: 'Telestory - View and Download Telegram Stories',
     description:
-      'Начните свой путь в web3 с помощью специально разработанной платформы и персонального AI-ментора ',
+      'Telestory lets you watch and save Telegram stories. Access any user\'s stories, save them for later, and share with friends - all without revealing your identity.',
     images: [{ url: '/og-image.jpeg' }],
   },
 
