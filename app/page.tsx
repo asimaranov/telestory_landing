@@ -65,7 +65,6 @@ export default function TelestoryLanding() {
       </header>
 
       <main className="flex-1">
-        {/* Hero Section */}
         <section className="w-full py-12 md:py-24">
           <div className="container px-4 md:px-6 mx-auto">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
