@@ -236,7 +236,11 @@ export default function TelestoryLanding() {
                       <span>Telegram bot access</span>
                     </li>
                   </ul>
-                  <Link href="https://t.me/tele_story_bot">
+                  <Link
+                    href="https://t.me/tele_story_bot"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Button className="w-full" variant="outline">
                       Get Started Free
                     </Button>
@@ -286,7 +290,11 @@ export default function TelestoryLanding() {
                       <span>No ads</span>
                     </li>
                   </ul>
-                  <Link href="https://t.me/tele_story_bot?message=/premium">
+                  <Link
+                    href="https://t.me/tele_story_bot?message=/premium"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Button className="w-full bg-blue-600 hover:bg-blue-700">
                       Upgrade to Premium
                     </Button>
@@ -314,16 +322,24 @@ export default function TelestoryLanding() {
                 </p>
               </div>
               <div className="flex flex-col gap-4 min-[400px]:flex-row">
-                <Link href="https://t.me/tele_story_bot">
+                <Link
+                  href="https://t.me/tele_story_bot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                     <Bot className="mr-2 h-5 w-5" />
                     Open Telegram Bot
                   </Button>
                 </Link>
-                <Link href="https://play.google.com/store/apps/details?id=com.ddm.telestory&hl=en">
+                <Link
+                  href="https://play.google.com/store/apps/details?id=com.ddm.telestory&hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button size="lg" variant="outline">
                     <Download className="mr-2 h-5 w-5" />
-                    Download from App Store
+                    Download from Google Play
                   </Button>
                 </Link>
               </div>
@@ -345,13 +361,21 @@ export default function TelestoryLanding() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Link href="https://t.me/tele_story_bot">
+                <Link
+                  href="https://t.me/tele_story_bot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Button size="lg" variant="secondary">
                     <Bot className="mr-2 h-4 w-4" />
                     Start Free Trial
                   </Button>
                 </Link>
-                <Link href="https://vc.ru/services/788468-v-telegram-poyavilsya-pervyi-bot-dlya-anonimnogo-prosmotra-stories">
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://vc.ru/services/788468-v-telegram-poyavilsya-pervyi-bot-dlya-anonimnogo-prosmotra-stories"
+                >
                   <Button
                     size="lg"
                     variant="outline"
@@ -373,18 +397,24 @@ export default function TelestoryLanding() {
         </p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link
+            target="_blank"
+            rel="noopener noreferrer"
             href="/eula.txt"
             className="text-xs hover:underline underline-offset-4 text-gray-500"
           >
             Terms of Service
           </Link>
           <Link
+            target="_blank"
+            rel="noopener noreferrer"
             href="/eula.txt"
             className="text-xs hover:underline underline-offset-4 text-gray-500"
           >
             Privacy Policy
           </Link>
           <Link
+            target="_blank"
+            rel="noopener noreferrer"
             href="mailto:asimaranov@gmail.com"
             className="text-xs hover:underline underline-offset-4 text-gray-500"
           >
