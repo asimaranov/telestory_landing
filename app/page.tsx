@@ -217,7 +217,7 @@ export default function TelestoryLanding() {
                     Perfect for trying out Telestory
                   </CardDescription>
                 </CardHeader>
-                <CardContent className="flex flex-col grow">
+                <CardContent className="flex flex-col grow space-y-4 gap-2">
                   <ul className="space-y-2">
                     <li className="flex items-center">
                       <Check className="h-4 w-4 text-green-500 mr-2" />
@@ -240,7 +240,7 @@ export default function TelestoryLanding() {
                     href="https://t.me/tele_story_bot"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-auto"
+                    className="!mt-auto"
                   >
                     <Button className="w-full" variant="outline">
                       Get Started Free
