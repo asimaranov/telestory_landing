@@ -429,7 +429,7 @@ export default function TelestoryLanding() {
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            href="mailto:asimaranov@gmail.com"
+            href="mailto:support@telestory.net"
             className="text-xs hover:underline underline-offset-4 text-gray-500"
           >
             Support
