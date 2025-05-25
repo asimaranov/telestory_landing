@@ -86,7 +86,7 @@ export default function TelestoryLanding() {
                     friends - all without revealing your identity.
                   </p>
                 </div>
-                <div className="flex flex-col gap-2 min-[400px]:flex-row">
+                <div className="flex flex-col gap-2 sm:flex-row">
                   <Link href="https://t.me/tele_story_bot">
                     <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                       <Bot className="mr-2 h-4 w-4" />
@@ -240,7 +240,7 @@ export default function TelestoryLanding() {
                     href="https://t.me/tele_story_bot"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="!mt-auto"
+                    className="sm:!mt-auto"
                   >
                     <Button className="w-full" variant="outline">
                       Get Started Free
@@ -292,7 +292,7 @@ export default function TelestoryLanding() {
                     </li>
                   </ul>
                   <Link
-                    href="https://t.me/tele_story_bot?message=/premium"
+                    href="https://t.me/tele_story_bot?start=premium"
                     target="_blank"
                     rel="noopener noreferrer"
                     className=""
@@ -323,7 +323,7 @@ export default function TelestoryLanding() {
                   Telegram bot or mobile app.
                 </p>
               </div>
-              <div className="flex flex-col gap-4 min-[400px]:flex-row">
+              <div className="flex flex-col gap-4 sm:flex-row">
                 <Link
                   href="https://t.me/tele_story_bot"
                   target="_blank"
@@ -339,16 +339,23 @@ export default function TelestoryLanding() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button size="lg" variant="outline" className="hidden sm:flex">
+                  <Button
+                    size="lg"
+                    variant="outline"
+                    className="hidden sm:flex"
+                  >
                     <Download className="mr-2 h-5 w-5" />
                     Download from Google Play
                   </Button>
-                  <Button size="lg" variant="outline" className="flex sm:hidden">
-                  <Download className="mr-2 h-5 w-5" />
-                  Google Play
-                </Button>
+                  <Button
+                    size="lg"
+                    variant="outline"
+                    className="flex sm:hidden"
+                  >
+                    <Download className="mr-2 h-5 w-5" />
+                    Google Play
+                  </Button>
                 </Link>
-                
               </div>
             </div>
           </div>
@@ -367,7 +374,7 @@ export default function TelestoryLanding() {
                   view and save Telegram stories privately.
                 </p>
               </div>
-              <div className="flex flex-col gap-2 min-[400px]:flex-row">
+              <div className="flex flex-col gap-2 sm:flex-row">
                 <Link
                   href="https://t.me/tele_story_bot"
                   target="_blank"

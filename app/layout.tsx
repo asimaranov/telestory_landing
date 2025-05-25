@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Telestory - View and Download Telegram Stories',
   description: 'Telestory lets you watch and save Telegram stories. Access any user\'s stories, save them for later, and share with friends - all without revealing your identity.',
-  icons: [{ rel: 'icon', type: 'image/png', url: '/icon.png' }],
+  icons: [{ rel: 'icon', type: 'image/png', url: '/favicon.ico' }],
   openGraph: {
     title: 'Blockfirst - образовательная блокчейн платформа',
     description:
