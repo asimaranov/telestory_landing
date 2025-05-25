@@ -87,13 +87,13 @@ export default function TelestoryLanding() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 sm:flex-row">
-                  <Link href="https://t.me/tele_story_bot">
+                  <Link href="https://t.me/tele_story_bot" target="_blank" rel="noopener noreferrer">
                     <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                       <Bot className="mr-2 h-4 w-4" />
                       Start Telegram Bot
                     </Button>
                   </Link>
-                  <Link href="https://play.google.com/store/apps/details?id=com.ddm.telestory&hl=en">
+                  <Link href="https://play.google.com/store/apps/details?id=com.ddm.telestory&hl=en" target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="lg">
                       <Download className="mr-2 h-4 w-4" />
                       Download App
