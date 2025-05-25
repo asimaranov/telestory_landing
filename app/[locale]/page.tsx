@@ -49,7 +49,7 @@ export default function TelestoryLanding() {
         <nav className="ml-auto flex gap-4 sm:gap-6 items-center">
           <Link
             href="#features"
-            className="text-sm font-medium hover:text-blue-600 transition-colors"
+            className="text-sm font-medium hover:text-blue-600 transition-colors hidden sm:block"
           >
             {t("header.features")}
           </Link>
