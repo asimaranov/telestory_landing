@@ -209,7 +209,7 @@ export default function TelestoryLanding() {
             </div>
             <div className="grid gap-6 mt-12 md:grid-cols-2 lg:gap-12 max-w-4xl mx-auto">
               {/* Free Plan */}
-              <Card className="border-2 border-gray-200">
+              <Card className="border-2 border-gray-200 flex flex-col">
                 <CardHeader className="text-center">
                   <CardTitle className="text-2xl">Free</CardTitle>
                   <div className="text-4xl font-bold">0 ₽</div>
@@ -217,7 +217,7 @@ export default function TelestoryLanding() {
                     Perfect for trying out Telestory
                   </CardDescription>
                 </CardHeader>
-                <CardContent className="space-y-4">
+                <CardContent className="flex flex-col grow">
                   <ul className="space-y-2">
                     <li className="flex items-center">
                       <Check className="h-4 w-4 text-green-500 mr-2" />
@@ -240,6 +240,7 @@ export default function TelestoryLanding() {
                     href="https://t.me/tele_story_bot"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="mt-auto"
                   >
                     <Button className="w-full" variant="outline">
                       Get Started Free
@@ -259,7 +260,7 @@ export default function TelestoryLanding() {
                   <div className="text-4xl font-bold">149 ₽</div>
                   <CardDescription>per month</CardDescription>
                 </CardHeader>
-                <CardContent className="space-y-4">
+                <CardContent className="space-y-4 flex flex-col gap-2">
                   <ul className="space-y-2">
                     <li className="flex items-center">
                       <Check className="h-4 w-4 text-green-500 mr-2" />
@@ -294,6 +295,7 @@ export default function TelestoryLanding() {
                     href="https://t.me/tele_story_bot?message=/premium"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className=""
                   >
                     <Button className="w-full bg-blue-600 hover:bg-blue-700">
                       Upgrade to Premium
@@ -337,11 +339,16 @@ export default function TelestoryLanding() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button size="lg" variant="outline">
+                  <Button size="lg" variant="outline" className="hidden sm:flex">
                     <Download className="mr-2 h-5 w-5" />
                     Download from Google Play
                   </Button>
+                  <Button size="lg" variant="outline" className="flex sm:hidden">
+                  <Download className="mr-2 h-5 w-5" />
+                  Google Play
+                </Button>
                 </Link>
+                
               </div>
             </div>
           </div>
@@ -366,7 +373,7 @@ export default function TelestoryLanding() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button size="lg" variant="secondary">
+                  <Button size="lg" variant="secondary" className="mt-auto">
                     <Bot className="mr-2 h-4 w-4" />
                     Start Free Trial
                   </Button>
