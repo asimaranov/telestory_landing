@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ddm.telestory",
+      "sha256_cert_fingerprints": [
+        "EB:5C:9D:7B:77:AE:F2:80:FA:29:E4:2B:F7:6A:EF:C5:0C:86:65:60:E3:5D:C7:C3:62:50:EE:CE:87:EB:46:9C"
+      ]
+    }
+  }
+]
