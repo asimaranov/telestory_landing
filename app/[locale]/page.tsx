@@ -407,7 +407,7 @@ export default function TelestoryLanding() {
                 <Link
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://vc.ru/services/788468-v-telegram-poyavilsya-pervyi-bot-dlya-anonimnogo-prosmotra-stories"
+                  href="https://xn--80aaaljatnnnpyfdddmbe5g5e.xn--p1ai"
                 >
                   <Button
                     size="lg"
