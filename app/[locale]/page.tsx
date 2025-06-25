@@ -232,15 +232,19 @@ export default function TelestoryLanding() {
                     </li>
                     <li className="flex items-center">
                       <Check className="h-4 w-4 text-green-500 mr-2" />
-                      <span>{t("pricing.free.features.anonymous")}</span>
-                    </li>
-                    <li className="flex items-center">
-                      <Check className="h-4 w-4 text-green-500 mr-2" />
                       <span>{t("pricing.free.features.downloads")}</span>
                     </li>
                     <li className="flex items-center">
                       <Check className="h-4 w-4 text-green-500 mr-2" />
+                      <span>{t("pricing.free.features.anonymous")}</span>
+                    </li>
+                    <li className="flex items-center">
+                      <Check className="h-4 w-4 text-green-500 mr-2" />
                       <span>{t("pricing.free.features.bot")}</span>
+                    </li>
+                    <li className="flex items-center">
+                      <Check className="h-4 w-4 text-green-500 mr-2" />
+                      <span>{t("pricing.free.features.app")}</span>
                     </li>
                   </ul>
                   <Link
@@ -278,6 +282,12 @@ export default function TelestoryLanding() {
                     <li className="flex items-center">
                       <Check className="h-4 w-4 text-green-500 mr-2" />
                       <span className="font-medium">
+                        {t("pricing.premium.features.free")}
+                      </span>
+                    </li>
+                    <li className="flex items-center">
+                      <Check className="h-4 w-4 text-green-500 mr-2" />
+                      <span className="font-medium">
                         {t("pricing.premium.features.unlimited")}
                       </span>
                     </li>
@@ -287,11 +297,7 @@ export default function TelestoryLanding() {
                     </li>
                     <li className="flex items-center">
                       <Check className="h-4 w-4 text-green-500 mr-2" />
-                      <span>{t("pricing.premium.features.bulk")}</span>
-                    </li>
-                    <li className="flex items-center">
-                      <Check className="h-4 w-4 text-green-500 mr-2" />
-                      <span>{t("pricing.premium.features.app")}</span>
+                      <span>{t("pricing.premium.features.anonymous")}</span>
                     </li>
                     <li className="flex items-center">
                       <Check className="h-4 w-4 text-green-500 mr-2" />
@@ -302,7 +308,7 @@ export default function TelestoryLanding() {
                       <span>{t("pricing.premium.features.sharing")}</span>
                     </li>
                     <li className="flex items-center">
-                      <Zap className="h-4 w-4 text-yellow-500 mr-2" />
+                      <Zap className="h-4 w-4 text-green-500 mr-2" />
                       <span>{t("pricing.premium.features.noAds")}</span>
                     </li>
                   </ul>
