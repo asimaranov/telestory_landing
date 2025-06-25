@@ -8,7 +8,7 @@
     "badge": "Telegram Bot + Mobile App",
     "title": "View & Download Telegram Stories",
     "description": "Telestory lets you watch and save Telegram stories. Access any user's stories, save them for later, and share with friends - all without revealing your identity.",
-    "startBot": "Start Telegram Bot",
+    "startBot": "Open Telegram Bot",
     "downloadApp": "Download App"
   },
   "features": {
@@ -48,9 +48,10 @@
       "description": "Perfect for trying out Telestory",
       "features": {
         "views": "10 story views per day",
-        "anonymous": "Basic anonymous viewing",
         "downloads": "Standard quality downloads",
+        "anonymous": "Basic anonymous viewing",
         "bot": "Telegram bot access"
+        "app": "Mobile apps access"
       },
       "button": "Get Started Free"
     },
@@ -60,12 +61,12 @@
       "price": "149 ₽",
       "period": "per month",
       "features": {
-        "unlimited": "Unlimited story views",
+        "free": "All featured from Free plan",
+        "unlimited": "Extended limits for story views",
         "hd": "HD quality downloads",
-        "bulk": "Bulk download feature",
-        "app": "Mobile app access",
+        "anonymous": "Complete anonymity of views",
         "support": "Priority support",
-        "sharing": "Advanced sharing options",
+        "sharing": "Advanced sharing & save options",
         "noAds": "No ads"
       },
       "button": "Upgrade to Premium"
@@ -74,14 +75,14 @@
   "download": {
     "title": "Get Started Today",
     "subtitle": "Choose your preferred way to access Telestory - through our Telegram bot or mobile app.",
-    "openBot": "Open Telegram Bot",
-    "googlePlay": "Download from Google Play",
-    "googlePlayShort": "Google Play"
+    "openBot": "Open in Telegram",
+    "googlePlay": "Download Mobile App",
+    "googlePlayShort": "Mobile App"
   },
   "cta": {
     "title": "Ready to View and Save Stories?",
     "subtitle": "Join thousands of users who are already using Telestory to view and save Telegram stories privately.",
-    "startTrial": "Start Free Trial",
+    "startTrial": "Start Now",
     "learnMore": "Learn More"
   },
   "footer": {
