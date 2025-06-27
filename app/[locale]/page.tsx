@@ -91,7 +91,7 @@ export default function TelestoryLanding() {
                 </div>
                 <div className="flex flex-col gap-2 sm:flex-row">
                   <Link
-                    href="https://t.me/tele_story_bot?start=landing"
+                    href="https://telestory.net/app/bot"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -101,7 +101,7 @@ export default function TelestoryLanding() {
                     </Button>
                   </Link>
                   <Link
-                    href="https://play.google.com/store/apps/details?id=com.ddm.telestory"
+                    href="https://telestory.net/app/open"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -248,7 +248,7 @@ export default function TelestoryLanding() {
                     </li>
                   </ul>
                   <Link
-                    href="https://t.me/tele_story_bot?start=landing"
+                    href="https://telestory.net/app/bot"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="sm:!mt-auto"
@@ -313,7 +313,7 @@ export default function TelestoryLanding() {
                     </li>
                   </ul>
                   <Link
-                    href="https://t.me/tele_story_bot?start=premium"
+                    href="https://telestory.net/app/premium"
                     target="_blank"
                     rel="noopener noreferrer"
                     className=""
@@ -345,7 +345,7 @@ export default function TelestoryLanding() {
               </div>
               <div className="flex flex-col gap-4 sm:flex-row">
                 <Link
-                  href="https://t.me/tele_story_bot?start=landing"
+                  href="https://telestory.net/app/bot"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -355,7 +355,7 @@ export default function TelestoryLanding() {
                   </Button>
                 </Link>
                 <Link
-                  href="https://telestory.taplink.ws"
+                  href="https://telestory.net/app/download"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -395,7 +395,7 @@ export default function TelestoryLanding() {
               </div>
               <div className="flex flex-col gap-2 sm:flex-row">
                 <Link
-                  href="https://t.me/tele_story_bot?start=landing"
+                  href="https://telestory.net/app/bot"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
