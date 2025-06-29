@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -27,6 +28,7 @@ import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 export default function TelestoryLanding() {
   const t = useTranslations();
+  const locale = useLocale();
 
   // Define the carousel images
   const carouselImages = [
@@ -407,7 +409,11 @@ export default function TelestoryLanding() {
                 <Link
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://xn--80aaaljatnnnpyfdddmbe5g5e.xn--p1ai"
+                  href={
+                    locale === "ru"
+                      ? "https://скачатьстористелеграм.рф"
+                      : "https://download-telegram-story.com"
+                  }
                 >
                   <Button
                     size="lg"
